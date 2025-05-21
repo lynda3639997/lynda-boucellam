@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactez-nous - THAQBAYLIT</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../style/contacter-nous.css">
+    <script src="../js/contacter-nous.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Francois+One&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+        
+       
+    </style>
+</head>
+<body>
+
+
+    <!--Document checking completed. No errors or warnings to show.-->
+
+    
+    <header>
+        <div class="contenu-header">
+                   <a href="index.html" class="logo">
+                <img src="../img/1logo-thaqvaylith.png" alt="logo thaqbaylith" width="70">
+                <br>THAQBAYLIT<span><br>ⵝⴰⵇⴱⴰⵢⵍⵉⵝ</span>
+             </a>
+        </div>
+    </header>
+
+    <div class="contact-conteneur">
+        <h1>Contactez-nous</h1>
+        
+        <form id="contactForm" class="contact-form">
+            <div class="form-group">
+                             <label for="name">Nom complet</label>
+                <input type="text" id="name" name="name" required>
+                <div class="error" id="nameError">Veuillez entrer votre nom</div>
+           
+           
+            </div>
+            
+            <div class="form-group">
+           
+           
+           
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <div class="error" id="emailError">Veuillez entrer un email valide</div>  </div>
+            
+            <div class="form-group">
+                <label for="subject">Sujet</label>
+                   <select id="subject" name="subject" required>
+                    <option value="">Sélectionnez un sujet</option>
+                
+                    <option value="question">Question sur un produit</option>
+                    <option value="commande">Suivi de commande</option>
+                               <option value="retour">Retour/Échange</option>
+                    <option value="autre">Autre demande</option>
+                </select>
+                <div class="error" id="subjectError">Veuillez sélectionner un sujet</div>
+            </div>
+            
+            <div class="form-group">
+                <label for="message">Message</label>
+               
+                <textarea id="message" name="message" required></textarea>
+                
+                <div class="error" id="messageError">Veuillez écrire votre message</div>
+            </div>
+            
+            <button type="submit" class="submit-btn">Envoyer le message</button>
+              
+            <div class="success-message" id="successMessage">
+                            <i class="fas fa-check-circle"></i> Votre message a été envoyé avec succès !
+            </div>
+                            </form>
+    </div>
+
+    
+</body>
+</html>

@@ -1,0 +1,144 @@
+/*Document checking completed. No errors or warnings to show.*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu Sans Mono", monospace;
+    font-weight: 800;
+}
+
+body {
+    background: linear-gradient(to right, rgba(74, 63, 134, 0.421), rgba(156, 163, 76, 0.437), rgba(88, 103, 218, 0.574));
+    color: #333;
+}
+
+/* Header - Style existant */
+header {
+    background: linear-gradient(to right, rgb(153, 141, 220), rgb(210, 215, 150), rgb(135, 144, 209));
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  
+  
+  
+    padding: 10px 10%;
+    position: fixed;
+    width: 100%;
+    top: 0;
+   
+   
+             z-index: 1000;
+}
+
+.contenu-header {
+    display: flex;
+           justify-content: space-between;
+    align-items: center;
+             max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    color: #2c3e50;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+/* Section Avis */
+.section-avis {
+    max-width: 1000px;
+         margin: 120px auto 50px;
+           padding: 30px;
+}
+
+.titre-section {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+}
+
+.grille-avis {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.carte-avis
+ {
+    background: white;
+     border-radius: 10px;
+              padding: 25px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+
+
+}
+
+.carte-avis:hover 
+{
+     transform: translateY(-5px);
+}
+
+.entete-avis {
+    display: flex;
+    align-items: center;
+             gap: 15px;
+    margin-bottom: 15px;
+}
+
+.photo-client 
+{
+    width: 60px;
+ 
+ 
+    height: 60px;
+    
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #e74c3c;}
+
+
+
+
+    .info-client h4 {
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+.note-avis {
+    color: #f39c12;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.texte-avis
+ {
+    color: #34495e;
+    
+    
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.date-avis {
+    color: #95a5a6;
+  
+  
+  
+    font-size: 14px;
+    text-align: right;}
+
+@media 
+(max-width: 768px) 
+{.section-avis
+     {
+        margin: 100px 20px 30px;
+                   padding: 20px;
+    }
+    
+    .grille-avis {
+        grid-template-columns: 1fr;
+    }
+
+
+}

@@ -1,0 +1,128 @@
+
+
+
+
+/*Document checking completed. No errors or warnings to show.*/
+
+body
+
+{
+    margin: 0px 0px 70px 0px;;
+    padding: 0;
+    
+    background: url(../img/1logo-thaqvaylith.png) no-repeat center/cover;
+    height:100vh;
+    font-family: Arial, sans-serif;
+      display: flex;
+    align-items: center;
+         justify-content: center;
+    font-family: "Ubuntu Sans Mono", monospace;
+    
+       font-weight: 800;
+    
+    
+       font-style: normal;
+  }
+  .form-conteneur 
+  {
+    background: rgba(255, 255, 255, 0.1); /* Plus transparent */
+    padding: 30px 20px;
+  border-radius: 20px;
+       backdrop-filter: blur(8px); /* Flou léger */
+ -webkit-backdrop-filter: blur(8px);
+   
+ 
+ max-width: 400px;
+    width: 90%;
+       box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+   
+       margin-top: 150px;}
+
+  .form-conteneur h2 
+  
+  { text-align: center;
+    color: #9f46dfdc;
+       font-size: 24px;
+     margin-bottom: 20px;}
+
+  .form-conteneur input,.form-containeur textarea 
+  {
+    width: 100%;
+   padding: 12px;
+    margin: 10px 0;
+             border: none;
+    border-radius: 12px;
+        background: rgba(255, 255, 255, 0.3);
+ color: #000;
+    font-size: 16px;
+    outline: none;
+  }
+
+  
+  .form-conteneur button {
+    width: 100%;
+    padding: 12px;
+  margin-top: 15px;
+          background: #87269d72;
+                  color: #333;
+    font-weight: bold;
+        border: none;
+    border-radius: 12px;
+    cursor: pointer;
+ 
+    font-size: 16px;
+  }
+
+  .form-conteneur button:hover {
+    background: #f1f1f1;
+  }
+  .form-conteneur input{
+    border: 3px solid black;
+    border-radius: 50px 50px;
+ width: 90%;
+  }
+
+
+  header {
+    background: linear-gradient(to right, rgb(153, 141, 220), rgb(210, 215, 150), rgb(135, 144, 209));
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  
+  
+  
+      padding: 10px 1px;
+  position: fixed;
+    width: 100%;
+    top: 0;
+   
+   
+         z-index: 1000;
+}
+
+.contenu-header {
+    display: flex;
+           justify-content: space-between;
+    align-items: center;
+             max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    color: #2c3e50;
+        font-weight: bold;
+    font-size: 1.1rem;
+    text-decoration: none;
+} 
+ button[type="submit"] 
+ {
+ 
+ 
+  background: linear-gradient(to right, rgb(153, 141, 220), rgb(135, 144, 209));
+  color: white;
+   
+  border: none;
+  padding: 10px 20px;
+      border-radius: 5px;
+    cursor: pointer;
+  font-family: "Ubuntu Sans Mono", monospace;
+ margin-top: 15px;
+}

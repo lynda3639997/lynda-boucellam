@@ -1,0 +1,51 @@
+/*Document checking completed. No errors or warnings to show.*/
+body 
+{
+    display: flex;
+     
+      justify-content: center;
+    align-items: center;
+    
+    height: 100vh;
+    margin: 0;
+     font-family: Arial, sans-serif;
+    background-color: #b5d44336;
+}
+
+.container {
+    display: flex;
+    gap: 60px; /* Espace entre les cercles */
+}
+
+.circle 
+{ width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+   
+    display: flex;
+    justify-content: center;
+     align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.circle h1 .login{
+    margin: 0;
+      
+    color: #333;
+    text-align: center;
+}
+
+/*Styles optionnels pour différencier les cercles*/ 
+
+
+
+.circle:hover 
+{
+    transform: translateY(-5px);
+    
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}.login,.signup
+{
+    background: linear-gradient(135deg, #6b11cbaa 0%, #86a947bb 100%);
+}

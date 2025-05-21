@@ -1,0 +1,115 @@
+
+
+
+/*Document checking completed. No errors or warnings to show.*/
+
+   
+.sect {
+    padding: 20px ;
+     margin: 0%;
+  
+   
+    font-family: "Ubuntu Sans Mono", monospace;
+    
+    font-weight: 800;
+ font-style: normal;
+ 
+     display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+ gap: 30px;
+    margin-bottom: 60px;
+}
+
+body{ background: linear-gradient(to right, rgba(74, 63, 134, 0.421), rgba(156, 163, 76, 0.437), rgba(88, 103, 218, 0.574));}
+
+.conteneur 
+
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h2 {
+    text-align: center;
+        font-size: 2.5rem;
+       margin-bottom: 50px;
+    color: #2c3e50;
+   
+   
+ background-color: #1216193e;
+    border-radius: 20px;
+
+}
+
+.grid {
+    display: grid;
+   
+   
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.les-carte
+{
+    
+ padding: 40px;
+     border-radius: 10px;
+           box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    text-align: center;
+    transition: transform 0.3s;
+background-image: url(../img/info.PNG) ;
+       background-size: cover;
+    background-position: center;
+      background-repeat: no-repeat;}
+  
+
+
+.les-carte:hover
+
+
+{
+    transform: translateY(-10px);
+}
+
+.les-carte i 
+{
+    font-size: 2.5rem;
+    color: #e74c3c;
+    margin-bottom: 20px;
+}
+
+.les-carte h3 
+{
+     color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.les-carte p
+ {
+       color: #0c0404cf;
+    line-height: 1.6;
+    background-color: #ffffff22;
+}
+
+.note
+{
+    max-width: 800px;
+       margin: 0 auto;
+    padding: 30px;
+ background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  text-align: center;
+    font-style: italic;
+ font-size: 1.1rem;
+    border-left: 4px solid #e74c3c;
+}
+
+.note 
+{
+    color: #2c3e50;
+ font-weight: 600;
+}
